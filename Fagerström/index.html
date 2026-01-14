@@ -6,88 +6,117 @@
     <title>Test Fagerström</title>
   </head>
   <body>
-    <section>
-      <h1>Test de Fagerström</h1>
-      <p>
-        Le test Fagerström sert a mesurer la dépendance pysique à la nicotine
-      </p>
-    </section>
-    <div>
+    <form id="test_fegerstom">
+      <section>
+        <h1>Test de Fagerström</h1>
+        <p>
+          Le test Fagerström sert a mesurer la dépendance pysique à la nicotine/vapotage
+        </p>
+      </section>
       <div>
-            <h2>
-            Le matin, combien de temps aprés être réveillé(e) fumez-vous votre
-            première cigarette ?
-            </h2>
-            <input type="radio" id="1.1" name="question1" value="Plus de 60 minutes." />
-            <label for="1">Plus de 60 minutes.</label>
+        <fieldset>
+          <p>Quel(s) moyen(s) principal(aux) utilisez-vous pour fumer ?</p>
 
-            <input type="radio" id="1.2" name="question1" value="De 31 à 60 minutes."/>
-            <label for="1">De 31 à 60 minutes.</label>
+          <input type="checkbox" id="0_1" name="Produit_Cigarette" value="Cigarette">
+          <label for="0_1">Cigarette</label>  
 
-            <input type="radio" id="1.3" name="question1" value="De 6 à 30 minutes."/>
-            <label for="1">De 6 à 30 minutes.</label>
+          <input type="checkbox" id="0_2" name="Produit_Cigarette_électronique"value="Cigarette électronique">
+          <label for="0_2">Cigarette électronique</label>  
 
-            <input type="radio" id="1.4" name="question1" value="Dans les 5 minutes." />
-            <label for="1">Dans les 5 minutes.</label>
+          <input type="checkbox" id="0_3" name="Produit_Cigarette_roulée"value="Cigarette roulée">
+          <label for="0_3">Cigarette roulée</label>
+
+          <input type="checkbox" id="0_4" name="Produit_Puff"value="Puff">
+          <label for="0_4">Puff</label>  
+
+          <input type="checkbox" id="0_5" name="Produit_Vuse"value="Vuse">
+          <label for="0_5">Vuse</label>  
+
+          <input type="checkbox" id="0_6" name="Produit_Chicha"value="Chicha">
+          <label for="0_6">Chicha</label>  
+
+          <input type="checkbox" id="0_7" name="Produit_Snus"value="Snus">
+          <label for="0_7">Snus</label>
+        </fieldset>
       </div>
+
+
       <div>
-            <h2>
-            Trouvez-vous qu’il est difficile de vous abstenir de fumer dans les
-            endroits où c’est interdit ? (ex. : cinémas, bibliothèques)
-            </h2>
-            <input type="radio" id="2.1" name="question2" value="Non." />
-            <label for="1">Non.</label>
-            <input type="radio" id="2.2" name="question2" value="Oui." />
-            <label for="1">Oui.</label>
+        <fieldset>
+              <legend>
+              Combien de temps après votre réveil utilisez-vous 
+              votre première source de nicotine (puff, cigarette, vape, chicha, etc.) ?
+              </legend>
+              <input type="radio" id="1_1" name="question1" value="Plus de 60 minutes." />
+              <label for="1_1">Plus de 60 minutes.</label>
+
+              <input type="radio" id="1_2" name="question1" value="De 31 à 60 minutes."/>
+              <label for="1_2">De 31 à 60 minutes.</label>
+
+              <input type="radio" id="1_3" name="question1" value="De 6 à 30 minutes."/>
+              <label for="1_3">De 6 à 30 minutes.</label>
+
+              <input type="radio" id="1_4" name="question1" value="Dans les 5 minutes." />
+              <label for="1_4">Dans les 5 minutes.</label>
+        </fieldset>
+        <fieldset>
+              <legend>
+              Est-il difficile de vous abstenir de consommer un produit 
+              nicotinique dans des lieux où c’est interdit (cinéma, transports, école…)
+              </legend>
+              <input type="radio" id="2_1" name="question2" value="Non." />
+              <label for="2_1">Non.</label>
+              <input type="radio" id="2_2" name="question2" value="Oui." />
+              <label for="2_2">Oui.</label>
+        </fieldset>
+        <fieldset>
+          <legend>
+            Combien de cigarettes/puff/vuse etc... vous fumez-vous par jour en moyenne ?
+          </legend>
+          <input type="radio" id="3_1" name="question3" value="10 ou moins" />
+          <label for="3_1">10 ou moins</label>
+
+          <input type="radio" id="3_2" name="question3" value="11 à 20" />
+          <label for="3_2">11 à 20</label>
+
+          <input type="radio" id="3_3" name="question3" value="21 à 30" />
+          <label for="3_3">21 à 30</label>
+
+          <input type="radio" id="3_4" name="question3" value="31 ou plus" />
+          <label for="3_4">31 ou plus</label>
+        </fieldset>
+        <fieldset>
+          <legend>
+            Quel moment nicotinique serait le plus difficile à supprimer ?
+          </legend>
+          <input type="radio" id="4_1" name="question4" value="La première utilisation de la journée." />
+          <label for="4_1">La première utilisation de la journée.</label>
+
+          <input type="radio" id="4_2" name="question4" value="Une utilisation à un autre moment de la journée." />
+          <label for="4_2">Une utilisation à un autre moment de la journée.</label>
+        </fieldset>
+        <fieldset>
+          <legend>
+            Avez-vous tendance à consommer davantage de nicotine le matin que le reste de la journée ?
+          </legend>
+          <input type="radio" id="5_1" name="question5" value="Oui." />
+          <label for="5_1">Oui.</label>
+
+          <input type="radio" id="5_2" name="question5" value="Non." />
+          <label for="5_2">Non.</label>
+        </fieldset>
+        <fieldset>
+          <legend>
+            Utilisez-vous un produit nicotinique même lorsque 
+              vous êtes malade, alité, ou très fatigué(e) ?
+          </legend>
+          <input type="radio" id="6_1" name="question6" value="Oui." />
+          <label for="6_1">Oui.</label>
+
+          <input type="radio" id="6_2" name="question6" value="Non." />
+          <label for="6_2">Non.</label>
+        </fieldset>
       </div>
-      <div>
-        <h2>
-          Combien de cigarettes fumez-vous par jouren moyenne ?
-        </h2>
-        <input type="radio" id="3.1" name="question3" value="10 ou moins" />
-        <label for="3">10 ou moins</label>
-
-        <input type="radio" id="3.2" name="question3" value="11 à 20" />
-        <label for="3">11 à 20</label>
-
-        <input type="radio" id="3.3" name="question3" value="21 à 30" />
-        <label for="3">21 à 30</label>
-
-        <input type="radio" id="3.4" name="question3" value="31 ou plus" />
-        <label for="3">31 ou plus</label>
-      </div>
-      <div>
-        <h2>
-          A quelle cigarette renonceriez vous le plus difficilement ?
-        </h2>
-        <input type="radio" id="3.1" name="question4" value="A une au cours de la journée." />
-        <label for="3">A une au cours de la journée.</label>
-
-        <input type="radio" id="3.2" name="question4" value="A la première de la journée." />
-        <label for="3">A la première de la journée.</label>
-      </div>
-      <div>
-       <h2>
-          Fumez-vous à intervalles plus rapprochés
-          durant les premières heures de la matinée que durant le reste de la journée ?
-        </h2>
-        <input type="radio" id="3.1" name="question5" value="Oui." />
-        <label for="3">Oui.</label>
-
-        <input type="radio" id="3.2" name="question5" value="Non." />
-        <label for="3">Non.</label>
-      </div>
-      <div>
-       <h2>
-          Fumez-vous lorsque vous êtes malade au point 
-          de devoir rester au lit presque toute la journée ?
-        </h2>
-        <input type="radio" id="3.1" name="question6" value="Oui." />
-        <label for="3">Oui.</label>
-
-        <input type="radio" id="3.2" name="question6" value="Non." />
-        <label for="3">Non.</label>
-      </div>
-    </div>
+    </form>
   </body>
 </html>
