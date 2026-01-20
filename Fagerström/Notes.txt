@@ -1,0 +1,15 @@
+Mon objectif est de revisiter le test de Fagerström, pour l'adapter
+ à notre époque actuelle.
+ Aujourd'hui les produits nicotiniques sont bien nombreux de la cigarette
+ à la puff en passant par les snus, ce quiz qui etait fait pour mesurer
+ la dépencende physique à la nitotine, le test doit être adapté. 
+
+ -18/11/25: Première version du test, faire une maquette avec les
+  questions basique du test et des boutons cliquables
+
+  -14/01/26: Amélioration de la structure du code, remplacement de h2
+   par des fieldset, ajout de la balise form pour pouvoir récupérer 
+   les donnée qui test après
+
+   -20/01/25: Changement des value pour des scores
+   Le but est de faire une formulaire intelligen avec des string en value ça na passe pas 
